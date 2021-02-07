@@ -1,2 +1,5 @@
-language: C
-script: gcc hello.c -o hello
+language: c
+compiler: clang
+script: 
+  -make
+  -make hello
